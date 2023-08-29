@@ -10,7 +10,7 @@ public class MyFrame extends JFrame implements ActionListener {
     public MyFrame() {
         firstNameField = new JTextField(20);
         lastNameField = new JTextField(20);
-        submitButton = new JButton("Submit");
+        submitButton = new JButton("Abschicken");
         submitButton.addActionListener(this);
 
         JPanel panel = new JPanel(new GridBagLayout());
